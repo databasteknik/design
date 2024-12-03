@@ -107,6 +107,11 @@ a) Assess whether the relation is in Third Normal Form (3NF). Justify your answe
 
 b) If the relation is not in 3NF, decompose it into relations that are in 3NF.
 
+c) Repeat questions a) and b) for the functional dependencies:
+1. **A → B**
+2. **B → C**
+3. **C → D**
+4. **C → E**
 ---
 
 ### **Exercise 6: Sales Transactions**
