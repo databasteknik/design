@@ -12,7 +12,8 @@ A university wants to develop a system to manage information about its students,
 
 **Scenario:**
 
-A company needs a system to keep track of its employees, the departments they belong to, and the projects they are working on. Each employee has a unique ID, a name, and a job title. Employees are assigned to one department, which has its own unique ID and name. Employees can work on multiple projects, and each project can have several employees assigned to it. For every project an employee works on, the company wants to record how many hours per week the employee dedicates to that project.
+A company needs a system to keep track of its employees, the departments they belong to, and the projects they are working on. Each employee has a unique ID, a name, and a job title. Employees are assigned to one department, which has its own unique ID, name and budget. Employees can work on multiple projects, and each project can have several employees assigned to it. For every project an employee works on, the company wants to record how many hours per week the employee dedicates to that project.
+
 
 ---
 
