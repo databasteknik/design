@@ -70,6 +70,7 @@ The database should also keep a record of times when each customer has accessed 
 facility. This may include multiple accesses from the same customer to the same facility at
 different times.
 
+
 ## Advanced exercise 4
 A company needs help designing a database for managing the inventory and sale prices of
 a chain of stores.
@@ -96,3 +97,20 @@ to maximise the experience. In these cases, even an extra discount for the secon
 product is offered.
 
 
+## Advanced exercise 5
+You are making a database for recipes and ingredients. Every recipe consists of components,
+like “filling” or “glaze”. Each component has its own set of ingredients, and an amount for
+each such ingredient.
+
+Additional features:
+- Each recipe has its own unique name. Each component has a name that is unique for
+the recipe it’s in.
+- Each recipe has an instruction text.
+- The database should store the unit of measurement of each ingredient (e.g. butter is
+always measured in gram so if a component contains 100 of ingredient “butter”, that
+means 100 grams).
+- Some recipes require using an oven, for these recipes it should store temperature and
+time.
+- Ingredients can have any number of alternate ingredients (globally for all recipes that
+use that ingredient). There is a conversion factor for each such alternate, e.g. 1 gram
+of sugar can be replaced by ¾ gram of honey (so the factor is 0.75). 
