@@ -1,5 +1,7 @@
 For all exercises implement an ER-diagram for the domain description.
 
+Dessa övningar är tänkta att representera G på tentan.
+
 ## **Exercise 1: University Enrollment System**
 
 **Scenario:**
@@ -40,7 +42,6 @@ An online retailer wants to set up a database to manage customers, orders, and p
 A publishing company needs a database to manage information about books, authors, and publishers. Each book has an ISBN number, a title, the year it was published, and the publisher who published it. Each publisher has a unique ID, a name, and an address. Authors have a unique ID and a name. Books can have multiple authors, and authors can write multiple books.
 
 Advanced exercises är tänkt att representera en VG-fråga på tentan.
-
 ## Advanced exercise 1
 Andra frågan är mer än VG.
 https://opentextbc.ca/dbdesign01/back-matter/appendix-b-erd-exercises/
@@ -68,3 +69,30 @@ world (but you can assume cities have unique names).
 The database should also keep a record of times when each customer has accessed any gym
 facility. This may include multiple accesses from the same customer to the same facility at
 different times.
+
+## Advanced exercise 4
+A company needs help designing a database for managing the inventory and sale prices of
+a chain of stores.
+The description of the domain is as follows:
+- The chain contains multiple stores, each identified by its address.
+- Every product sold by the chain has its own name.
+- Every store has an inventory of products in the store, that is, how many items of
+each product they currently have in stock.
+- Products are sold in packages of different sizes. Different products are packaged in
+different sizes, for example one product could be sold in 5-packs and 10-packs, and
+another product only in single packs (size 1).
+- Each package size of a product has its price, so a 5-pack of a product could cost 20
+and a 10-pack of the same product cost 35. The price is the same in all stores.
+- Discounts could be applied to particular size packages of a product, for example the
+5-packs of a certain product could have a discount but not all other size packages for
+that product. Each discount should have a reduction and a description such as 25%
+and “Christmas sale”. There cannot be multiple discounts on the same pack size
+of a product but different size packages of the some product could have their own
+discount.
+- Some products have one other product as “best bought together with” that clients
+are recommended to also buy, for example when the client wants to buy a particular
+model of a Mac then he/she is recommended to also buy a certain external screen
+to maximise the experience. In these cases, even an extra discount for the second
+product is offered.
+
+
